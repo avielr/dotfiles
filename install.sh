@@ -9,6 +9,7 @@ echo "Linking Claude configs..."
 mkdir -p "$CLAUDE_DIR/plugins"
 
 ln -sf "$DOTFILES/claude/settings.json" "$CLAUDE_DIR/settings.json"
+ln -sf "$DOTFILES/claude/CLAUDE.md" "$CLAUDE_DIR/CLAUDE.md"
 # Remove dir if exists so symlink replaces it cleanly
 rm -rf "$CLAUDE_DIR/commands"
 ln -sf "$DOTFILES/claude/commands" "$CLAUDE_DIR/commands"
