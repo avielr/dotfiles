@@ -1,0 +1,15 @@
+# Claude - never commit these
+claude/.credentials.json
+claude/history.jsonl
+claude/projects/
+claude/cache/
+claude/debug/
+claude/session-env/
+claude/shell-snapshots/
+claude/statsig/
+claude/backups/
+claude/todos/
+claude/downloads/
+
+# Claude plugins - marketplace registry cache, can be refetched
+claude/plugins/marketplaces/
