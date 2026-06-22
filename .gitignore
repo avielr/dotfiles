@@ -1,5 +1,16 @@
-# Claude - never commit these
+# === Secrets — NEVER commit ===
+secrets/env
+.secrets/
 claude/.credentials.json
+*.local
+**/*credential*
+
+# === Shell history ===
+.zsh_history
+.bash_history
+
+# === Claude runtime / state (config is tracked; state is not) ===
+claude/settings.local.json
 claude/history.jsonl
 claude/projects/
 claude/cache/
@@ -10,6 +21,12 @@ claude/statsig/
 claude/backups/
 claude/todos/
 claude/downloads/
+claude/*-cache.json
+claude/*.status.json
+claude/.last-update-result.json
 
-# Claude plugins - marketplace registry cache, can be refetched
+# Claude plugins - marketplace registry cache, refetched on install
 claude/plugins/marketplaces/
+
+# This repo's own working-dir Claude state
+.claude/

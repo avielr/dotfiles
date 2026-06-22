@@ -1,1 +1,21 @@
-{}
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "model": "opus[1m]",
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "python-development@claude-code-workflows": true,
+    "javascript-typescript@claude-code-workflows": true,
+    "kubernetes-operations@claude-code-workflows": true,
+    "security-scanning@claude-code-workflows": true,
+    "agent-teams@claude-code-workflows": true,
+    "skill-creator@claude-plugins-official": true
+  },
+  "teammateMode": "tmux",
+  "version": 2
+}

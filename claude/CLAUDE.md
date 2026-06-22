@@ -1,3 +1,5 @@
+You are running in WSL
+
 # Global Claude Instructions
 
 - Be extremely concise. Sacrifice grammar for concision.
@@ -13,3 +15,7 @@
 ## Skills
 
 - Always consider if any relavant skills can be used when responding.
+
+@RTK.md
+
+<!-- shopprentice --> For Fusion 360 furniture modeling, invoke the `/woodworking` skill.
